@@ -1,0 +1,31 @@
+<style>
+.fusion-flip-boxes .fusion-flip-box .flip-box-back-inner, .fusion-flip-boxes .fusion-flip-box .flip-box-front-inner {
+    width: 100%;
+}
+
+fusion-flip-boxes .fusion-flip-box .flip-box-back, .fusion-flip-boxes .fusion-flip-box .flip-box-front {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    padding: 27px 20px;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-clip: padding-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+Style Attribute {
+    --viewportWidth: 1366;
+    height: auto;
+}
+</style>
