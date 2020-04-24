@@ -131,11 +131,11 @@
             if(empty($item))
             {
               // Display db subject record to screen
-              echo "<h1>SCP Subject Database</h1>
+              echo "<h1>SCP Foundation</h1>
               
-              <h2>Item:</li> </h2>
+              <h2><b>Item:</h2>
               {$item}
-              </ul>
+              
               <h3>Object Class: {$object_class}</h3>
               <h3>Procedures</h3>
               <p>{$procedures}</p>
@@ -172,33 +172,34 @@
               <ul>
               <h1>SCP ITEMS</h1>
               <br>
-              <li>Item:
+              <li><b>Item:</b>
               {$item}</li>
-              <li>Object Class: {$object_class}</li>
-              <li>Procedures</li>
+              <li><b>Object Class:</b> {$object_class}</li>
+              <li><b>Procedures</b></li>
               <li>{$procedures}</li>
-              <li>Description</li>
+              <li><b>Description</b></li>
               <li>{$description}</li>
-              <li>Chronological History</li>
+              <li><b>Chronological History</b></li>
               <li>{$ch}</li>
-              <li>Space-Time Anomalies</li>
+              <li><b>Space-Time Anomalies</b></li>
               <li>{$sta}</li>
-              <li>Additional Notes</li>
+              <li><b>Additional Notes</b></li>
               <li>{$an}</li>
-              <li>Appendix A</li>
+              <li><b>Appendix A</b></li>
               <li>{$appa}</li>
-              <li>Mental Health Effects</li>
+              <li><b>Mental Health Effects</b></li>
               <li>{$mhe}</li>
-              <li>Appendix B</li>
+              <li><b>Appendix B</b></li>
               <li>{$appb}</li>
-              <li>Date Of Discovery</li>
+              <li><b>Date Of Discovery</b></li>
               <li>{$dod}</li>
-              <li>Object Of Origin</li>
+              <li><b>Object Of Origin</b></li>
               <li>{$ooo}</li>
-              <li>Appendix B Description</li>
+              <li><b>Appendix B Description</b></li>
               <li>{$desb}</li>
-              <li>References</li>
+              <li><b>References</b></li>
               <li>{$ref}</li>
+              <br>
               <p class='text-center'><img class='img-fluid rounded mx-auto d-block' src='images/{$subject_image}'></p>
               </div>
               ";
